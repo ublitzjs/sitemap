@@ -1,0 +1,37 @@
+{
+  "name": "@ublitzjs/sitemap",
+  "version": "0.0.1",
+  "exports": {
+    "types": "./index.d.ts",
+    "import": "./mjs/index.mjs",
+    "require": "./cjs/index.cjs"
+  },
+  "type": "module",
+  "dependencies": {
+    "xml": "^1.0.1"
+  },
+  "devDependencies": {
+    "vitest": "3.2.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ublitzjs/sitemap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ublitzjs/sitemap/issues",
+    "email": "diril656@gmail.com"
+  },
+  "homepage": "https://github.com/ublitzjs/sitemap#readme",
+  "license": "ISC",
+  "keywords": [
+    "development",
+    "sitemap",
+    "xml",
+    "SEO",
+    "documentation",
+    "ublitzjs"
+  ]
+}
