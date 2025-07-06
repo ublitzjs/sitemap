@@ -1,1 +1,1 @@
-{"info":{"title":"","version":""},"openapi":"3.0.0","paths":{"/":{"get":{"summary":"main route"}},"/hello":{},"/1":{"get":{"description":"new route","deprecated":false,"tags":["new"]}}}}
+{"info":{"title":"","version":""},"openapi":"3.0.0","paths":{"/1":{"get":{"description":"new route","deprecated":false,"tags":["new"]}},"/":{"get":{"summary":"main route"}},"/hello":{}}}

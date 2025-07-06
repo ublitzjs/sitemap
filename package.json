@@ -6,13 +6,6 @@
     "import": "./mjs/index.mjs",
     "require": "./cjs/index.cjs"
   },
-  "type": "module",
-  "dependencies": {
-    "xml": "^1.0.1"
-  },
-  "devDependencies": {
-    "vitest": "3.2.4"
-  },
   "publishConfig": {
     "access": "public"
   },

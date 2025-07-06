@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <changefreq>daily</changefreq>
+    <loc>http://localhost:9001/1</loc>
+  </url>
+  <url>
     <loc>http://localhost:9001/</loc>
   </url>
   <url>
@@ -8,9 +12,5 @@
     <changefreq>never</changefreq>
     <lastmod>2025-0-1</lastmod>
     <loc>http://localhost:9001/hello</loc>
-  </url>
-  <url>
-    <changefreq>daily</changefreq>
-    <loc>http://localhost:9001/1</loc>
   </url>
 </urlset>
