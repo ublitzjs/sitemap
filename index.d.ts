@@ -55,6 +55,7 @@ export function serverExtension(host: string): {
   sitemap: {
     build(path: string, exitFromNodejs?: boolean): Promise<any>;
     data: route[];
+    add(opts:route):void;
   };
 };
 type route = { loc: string } & Partial<Url>;

@@ -47,6 +47,10 @@ var serverExtension = (h) => {
           );
         },
         data: [],
+        add(opts){
+          opts.loc = host + opts.loc;
+          this.data.push(opts);
+        }
       },
     };
   },
